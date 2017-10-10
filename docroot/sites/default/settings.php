@@ -783,5 +783,3 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-# Database configuration line using Acquia Cloud Environment Variables
-require("/var/www/site-php/".$_ENV['AH_SITE_GROUP']."/".$_ENV['AH_SITE_GROUP']."-settings.inc");
