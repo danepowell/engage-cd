@@ -1,0 +1,13 @@
+version: 1.0.0
+variables:
+  global:
+    secret:
+      secure: 2acihiGCmtqF/J9rKYjNu7sKNvqYqDrQRnWfvk9ioU3SZ1YeOXlA1AfON50Yhc7a32rPOAyeiNfox4Tar26wak2c7hjr+Dtg7GZBF/t7hvmFw4J6dWHNwV4t7OEP6XZdcu1OHOK2ksWNXJzGYnxZyL1Jlykjb6EaYS4Z0yYTavp9kM119wEmDc1BUTPpEYx7kQTWTEwjpvKh0xeu+AhqSPjv7StjAnPA14cKOtbS1aQcivldncdGSY3ozo7BaGTdYAGpLzguW5zL2baBgbdNdwsUTTkuqQU4xbEWeG8IZorzLWPKhkuld33TmmMKYvZKKBW68iNv6b+gSG64VU68hoNYVhKjx4BgVNi3uY12s/pLOEnZvdVGAe05wY+aTgf727TuXGIqYdSHClTSfQPWDuqudRXqsJIM0Y1MkCXvA7sR997sOwYeOou3rKWI3Zy9z5w/lbRCGtiEJuBW8j3mWpN0OFZKsa72/qviLGo5Qw1X4k/hXF2s8sc8RNPePtFUYxyLc12Gebxi9pGl1GTCIiE7hM2tN1FdAKCm3NRvBmVcwR3RVs4VoIXeF6+h5h8myb4xP43bSAyjA3vCp907uYUBDYmiWFKmmIaEBDFK6V9msdLu1syb1sRWh2qlSsgYBCivuz/m6SkSPz+zPRjowYykFCAykCO7kcFe5aZ7EF1sXs=X8YtnO+6VyWAzVwjPfdO5ffW7pm4I0uhMKpZ3uyEMhl02sAXCSI7BLCXmnEag0jYoymZdxM83E2sunO8oRez276p1OSn7gSZTjtYkqyXFvfIpNlnu1f/ebnFu6ZD7lwooZQ/bdf1ZlTWuWOf3EFI5w==
+events:
+  build:
+    steps:
+      - composer:
+          type: script
+          script:
+            # Add an encrypted variable named secret to this file with pipelines client. Use pipeline help encrypt for example syntax.
+            - echo $secret > secret.txt
