@@ -16,6 +16,13 @@ drush:
     local: self
     ci: self
   default_alias: '${drush.aliases.local}'
+target-hooks:
+  frontend-setup:
+    dir: '${repo.root}/docroot/themes/custom/cog_engage'
+    command: 'npm run install-tools'
+  frontend-build:
+    dir: '${repo.root}/docroot/themes/custom/cog_engage'
+    command: 'npm run build'
 modules: null
 setup:
   drupal:
