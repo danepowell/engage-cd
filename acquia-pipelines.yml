@@ -15,6 +15,9 @@ events:
             script:
               - composer validate --no-check-all --ansi
               - composer install --ansi
+              - nvm install v6.11.2
+              - nvm use 6.11.2
+              - npm install -g npm
               - source ${BLT_DIR}/scripts/pipelines/setup_env
         - validate:
             type: script
@@ -32,3 +35,16 @@ events:
             type: script
             script:
               - source ${BLT_DIR}/scripts/pipelines/build_artifact
+        - deploy:
+            script:
+              - pipelines-deploy
+  pr-merged:
+    steps:
+      - deploy:
+          script:
+            - pipelines-deploy
+  pre-closed:
+    steps:
+      - deploy:
+          script:
+            - pipelines-deploy
