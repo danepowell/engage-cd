@@ -1,3 +1,20 @@
-# Engage 2017 CD workshop
+# Engage CD
 
-This repository contains demo code for the Acquia Engage 2017 CD workshop. There are several branches, with each branch corresponding to a tutorial in the Pipelines Examples repository: https://github.com/acquia/pipelines-examples
+This is a demonstration of a complete BLT-based project development workflow for Engage CD.
+
+## Getting Started
+
+This project is based on BLT, an open-source project template and tool that enables building, testing, and deploying Drupal installations following Acquia Professional Services best practices.
+
+To set up your local environment and begin developing for this project, refer to the [BLT onboarding documentation](http://blt.readthedocs.io/en/latest/readme/onboarding/). Note the following properties of this project:
+* Primary development branch: blt
+* Local environment: DrupalVM
+* Local drush alias: @engage-cd.local
+* Local site URL: http://local.engage-cd.com
+
+## Resources
+
+* JIRA - link me!
+* GitHub - link me!
+* Acquia Cloud subscription - link me!
+* TravisCI - link me!

@@ -1,0 +1,23 @@
+project:
+  machine_name: engage-cd
+  prefix: ECD
+  human_name: 'Engage CD'
+  profile:
+    name: engage
+  local:
+    protocol: http
+    hostname: 'local.${project.machine_name}.com'
+git:
+  default_branch: master
+  remotes: {  }
+drush:
+  aliases:
+    remote: '${project.machine_name}.test'
+    local: self
+    ci: self
+  default_alias: '${drush.aliases.local}'
+modules: null
+setup:
+  drupal:
+    install:
+      import-config: false
