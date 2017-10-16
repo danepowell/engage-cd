@@ -6,4 +6,4 @@ events:
           type: script
           script:
             - mkdir docroot
-            - echo "Hello, Pipelines!" > docroot/index.html
+            - echo "Dane is the best!" > docroot/index.html
