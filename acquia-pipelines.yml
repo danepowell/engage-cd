@@ -5,5 +5,7 @@ events:
       - hello:
           type: script
           script:
+            - patch --version
+            - git --version
             - mkdir docroot
             - echo "Dane is the best!" > docroot/index.html
