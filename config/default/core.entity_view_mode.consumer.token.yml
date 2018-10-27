@@ -1,9 +1,13 @@
-uuid: 2016bf6b-a905-4bdd-b39d-f4d15f35d7c2
+uuid: eb4f9671-1381-40bd-ad12-107ac85fab33
 langcode: en
 status: true
 dependencies:
   module:
     - consumers
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    internal: true
 id: consumer.token
 label: Token
 targetEntityType: consumer

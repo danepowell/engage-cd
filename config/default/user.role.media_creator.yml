@@ -1,13 +1,13 @@
-uuid: 723ec1eb-68af-495d-b0f9-71805c0dbe9a
+uuid: 5290b8b3-9b98-4a10-9342-d0cf7079e27f
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: _IJNze-N-V6Z63278VbfRpZPKdLb2qaNVXhet2pxMQE
+  default_config_hash: sOivTdNRBzCVaqhc-dgc2Hemc3wgEMiQ3k4W1wI2BTY
 id: media_creator
 label: 'Media creator'
 weight: 5
-is_admin: null
+is_admin: false
 permissions:
   - 'access media overview'
   - 'access media_browser entity browser pages'

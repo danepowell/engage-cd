@@ -1,12 +1,12 @@
-uuid: ef9ead6f-7466-4581-be21-4219c9d2bcea
+uuid: a1651eb6-8951-42cf-934b-69acafe91e62
 langcode: und
 status: true
 dependencies:
   config:
     - field.storage.media.embed_code
-    - media_entity.bundle.tweet
+    - media.type.tweet
 _core:
-  default_config_hash: QaZQL729N5euGXnSvC9gtUanJ5WlMs9JvaXVMiwuqYk
+  default_config_hash: gQ7Nc5kgjpvgODjixeCLpGX65Pj_o8P2jtevAOtdh0w
 id: media.tweet.embed_code
 field_name: embed_code
 entity_type: media

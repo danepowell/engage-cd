@@ -1,12 +1,12 @@
-uuid: 5242cc64-d93f-450b-ac06-434b8f04626f
+uuid: 6a4a8f9e-9ddb-4bae-b5db-940656c92673
 langcode: und
 status: true
 dependencies:
   config:
     - field.storage.media.embed_code
-    - media_entity.bundle.instagram
+    - media.type.instagram
 _core:
-  default_config_hash: GFehPjHsnlFQvOAgu3JNYLfbm8i4qVhExxIYB_tBKyU
+  default_config_hash: L2i3lZTwf86RXzV6iD5u___bn48PaYgwDqd0W2qxPpw
 id: media.instagram.embed_code
 field_name: embed_code
 entity_type: media

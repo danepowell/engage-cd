@@ -1,4 +1,4 @@
-uuid: 702485bf-6291-453a-b1fa-12cbb28f1614
+uuid: f993c1ca-4d82-4880-be04-ab2e70c80a40
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - block_content.type.basic
     - field.field.block_content.basic.body
   module:
+    - content_moderation
     - text
-    - workbench_moderation
 _core:
   default_config_hash: S0f54eS7by2OoFl_NrvBK9UGTPx51cktxKhvwMy0Jls
 id: block_content.basic.default
@@ -32,4 +32,10 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
 hidden: {  }

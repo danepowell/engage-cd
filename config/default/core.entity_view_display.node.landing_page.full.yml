@@ -1,4 +1,4 @@
-uuid: cd209cef-5114-48dd-a0c8-6955fa3bb538
+uuid: e1a75925-84eb-42e5-9129-9d498eb7f7e9
 langcode: en
 status: true
 dependencies:
@@ -87,4 +87,5 @@ content:
     region: content
 hidden:
   body: true
+  content_moderation_control: true
   panelizer: true

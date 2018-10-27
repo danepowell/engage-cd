@@ -1,28 +1,16 @@
-uuid: d6d6a95e-fcb3-406b-b2e1-6c3c8dc27da3
+uuid: 62c41a65-ee9b-4e01-b8d4-cf98f8df4392
 langcode: en
 status: true
 dependencies:
   module:
-    - lightning_scheduled_updates
     - menu_ui
-    - workbench_moderation
 third_party_settings:
   menu_ui:
     available_menus:
       - main
     parent: 'main:'
-  workbench_moderation:
-    enabled: true
-    allowed_moderation_states:
-      - archived
-      - draft
-      - needs_review
-      - published
-    default_moderation_state: draft
-  lightning_scheduled_updates:
-    embargo: true
 _core:
-  default_config_hash: kYY0S6NYT60EisdcOtQjEix0X0BeY6h7iLWnUZk_SCg
+  default_config_hash: nb_cPUs4dvoXeLvPMQYwg1oWcQ5-nE7TcwKGs_VsiHg
 name: 'Basic page'
 type: page
 description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'

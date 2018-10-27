@@ -1,4 +1,4 @@
-uuid: 7a65f0cc-5bc4-4af8-9902-6ef0df4c28a0
+uuid: 2c96867e-06d9-40ff-b848-4ef066ed7ab9
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,13 @@ dependencies:
     - field.field.media.document.field_document
     - field.field.media.document.field_media_in_library
     - image.style.thumbnail
-    - media_entity.bundle.document
+    - media.type.document
   module:
     - file
     - image
     - user
 _core:
-  default_config_hash: KI2NCNo91jMc7PkqSAqfxhXNLaB-sasW02crhT705Hw
+  default_config_hash: 4tgcXj_iKv9Fw3xmONUfCHKqO7OeOa11qVesruN4k4k
 id: media.document.default
 targetEntityType: media
 bundle: document

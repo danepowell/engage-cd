@@ -1,17 +1,17 @@
-uuid: c5095394-8f2f-49be-9b3b-fa352b9a7571
+uuid: 0a01bc06-f01c-4954-928a-64e79b34539d
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_media_in_library
-    - media_entity.bundle.video
+    - media.type.video
 _core:
-  default_config_hash: zC9pQIW8eM8eJMUOSvbfPmrFbV7DwSD0FXuHUZ7PxDs
+  default_config_hash: MKi-yV7CIL84xp4ciuz1qbdbvVUmKKkuD-kNku9V85w
 id: media.video.field_media_in_library
 field_name: field_media_in_library
 entity_type: media
 bundle: video
-label: 'Save to my media library'
+label: 'Show in media library'
 description: ''
 required: false
 translatable: true
@@ -20,6 +20,6 @@ default_value:
     value: 1
 default_value_callback: ''
 settings:
-  on_label: 'Saved to my media library'
-  off_label: 'Not in my media library'
+  on_label: 'Shown in media library'
+  off_label: 'Hidden in media library'
 field_type: boolean

@@ -1,4 +1,4 @@
-uuid: e23dcdc1-8e44-495d-98b9-1887d4f87fdc
+uuid: 96256ee5-a065-48b0-af5d-37195b11f968
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
     - field.field.media.video.field_media_in_library
     - field.field.media.video.field_media_video_embed_field
     - image.style.medium
-    - media_entity.bundle.video
+    - media.type.video
   module:
     - image
 _core:
-  default_config_hash: LcO_Rcicj53mLH6DeZsNyiqiBDre7FyGDSqvV-6ckRA
+  default_config_hash: n4pfwmyfbKw7UgpIu3-0jgMdizFM7lDE38pJCB5hnSI
 id: media.video.thumbnail
 targetEntityType: media
 bundle: video

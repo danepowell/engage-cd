@@ -1,15 +1,15 @@
-uuid: a216c517-cb74-4d0e-859e-9c98271bb119
+uuid: ca408bde-5eee-429f-b75d-f03e2d543c29
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.image.field_media_in_library
     - field.field.media.image.image
-    - media_entity.bundle.image
+    - media.type.image
   module:
     - image
 _core:
-  default_config_hash: ymMlJDFlZOxNHB9FxTecp6V-1Dgab7eUjzGXoRFy9YM
+  default_config_hash: VLDxfMVPTkd2xvOjFMCh3kWmaOYnd03zggFXuUXQVEY
 id: media.image.default
 targetEntityType: media
 bundle: image

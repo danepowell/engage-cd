@@ -1,11 +1,11 @@
-uuid: 768cfd29-0e5e-4366-aaeb-304b9c778fac
+uuid: 31a4df5f-7a06-4b43-85ba-d4615ebcdce5
 langcode: en
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
 _core:
-  default_config_hash: s9fxALF9oeAs4-DxB5SrkPt8yKRQUjKD5FivLOr8JFE
+  default_config_hash: 9OZ-wAxZf8KE-bWw0LStM63AXv5rsrH3Ek8qO000DXA
 id: media.embed_code
 field_name: embed_code
 entity_type: media

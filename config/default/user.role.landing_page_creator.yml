@@ -1,11 +1,11 @@
-uuid: c8eee919-71f5-45cc-accf-a15372d861d0
+uuid: 439d511b-79ee-4048-88f2-f9230e3c8b1e
 langcode: en
 status: true
 dependencies: {  }
 id: landing_page_creator
 label: 'Landing page creator'
-weight: 4
-is_admin: null
+weight: 5
+is_admin: false
 permissions:
   - 'access contextual links'
   - 'access image_browser entity browser pages'
@@ -19,9 +19,9 @@ permissions:
   - 'create landing_page content'
   - 'create url aliases'
   - 'edit own landing_page content'
-  - 'use draft_draft transition'
-  - 'use draft_needs_review transition'
-  - 'use needs_review_needs_review transition'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
   - 'use text format rich_text'
   - 'view any unpublished content'
   - 'view landing_page revisions'

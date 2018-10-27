@@ -1,14 +1,14 @@
-uuid: 15b261d8-ec69-445d-9fcb-273af5d577c1
+uuid: d05bd898-4092-4a94-a508-1c50aad04362
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_document
-    - media_entity.bundle.document
+    - media.type.document
   module:
     - file
 _core:
-  default_config_hash: 9qJp-irUTNhCk-FqqZERqwvp-ie7ojMB1FshFdMqzFQ
+  default_config_hash: f7bnl0YEQNufiBJE33He44yXOU2kf-QBrmvz_7SVDB8
 id: media.document.field_document
 field_name: field_document
 entity_type: media

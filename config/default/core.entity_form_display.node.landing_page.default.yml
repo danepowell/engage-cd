@@ -1,4 +1,4 @@
-uuid: 3c8027be-121a-46b2-a486-4293a486c100
+uuid: f0bc3ac4-ddba-48fc-a330-c8e0f48ab9c7
 langcode: en
 status: true
 dependencies:
@@ -8,13 +8,13 @@ dependencies:
     - field.field.node.landing_page.panelizer
     - node.type.landing_page
   module:
+    - content_moderation
     - metatag
     - panelizer
     - path
     - text
-    - workbench_moderation
 _core:
-  default_config_hash: 5DlOHPfH8E6ZZ7WhXlP2xiw6EkenSVyDFQVdcOFXJpE
+  default_config_hash: B48sIkDf3G7VjHI5lzy7OHgBG1x0Lj_FI4-197i4oPQ
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
@@ -38,8 +38,14 @@ content:
   field_meta_tags:
     type: metatag_firehose
     region: content
-    weight: 121
+    weight: 101
     settings: {  }
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
     third_party_settings: {  }
   panelizer:
     type: panelizer
@@ -55,11 +61,11 @@ content:
     region: content
   status:
     type: boolean_checkbox
+    weight: 10
     settings:
       display_label: true
-    weight: 120
-    region: content
     third_party_settings: {  }
+    region: content
   title:
     type: string_textfield
     weight: 0

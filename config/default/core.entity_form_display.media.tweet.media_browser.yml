@@ -1,4 +1,4 @@
-uuid: eaad4708-8d55-4648-a54b-59290b176032
+uuid: d5e1aeec-a16c-425b-91cc-2d41bb2d5a75
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,12 @@ dependencies:
     - core.entity_form_mode.media.media_browser
     - field.field.media.tweet.embed_code
     - field.field.media.tweet.field_media_in_library
-    - media_entity.bundle.tweet
+    - media.type.tweet
   module:
+    - content_moderation
     - path
-    - workbench_moderation
 _core:
-  default_config_hash: WYt7qUipUVviLaZYZEdzc047DMFB_ghGY8gwU0OenB0
+  default_config_hash: 7z9YUmSI9wIGsoEtOxplD8fY7XPhXqImN2bEU9zc5sI
 id: media.tweet.media_browser
 targetEntityType: media
 bundle: tweet
@@ -24,6 +24,12 @@ content:
       display_label: true
     third_party_settings: {  }
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
   name:
     type: string_textfield
     weight: 0
@@ -43,6 +49,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
 hidden:
   created: true
   embed_code: true

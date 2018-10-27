@@ -1,11 +1,10 @@
-uuid: 3994d27f-f86b-4b50-a036-d30821faa509
+uuid: 62b42b72-d7a2-422e-ba40-d6473b1c39f0
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_meta_tags
-    - field.field.node.page.scheduled_update
     - node.type.page
   module:
     - metatag
@@ -37,9 +36,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  workbench_moderation_control:
-    weight: -20
-    region: content
 hidden:
+  content_moderation_control: true
   panelizer: true
-  scheduled_update: true

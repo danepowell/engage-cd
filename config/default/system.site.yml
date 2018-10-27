@@ -1,14 +1,14 @@
-uuid: 798b14f8-7212-4503-9003-870eca0473d9
+uuid: 3c2d930d-681b-4325-b16f-bbc4d0649841
 name: 'Engage CD'
 mail: no-reply@acquia.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

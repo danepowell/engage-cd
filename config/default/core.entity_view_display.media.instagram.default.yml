@@ -1,15 +1,15 @@
-uuid: 4f952ad9-9eef-4c06-b354-feb225fdd99e
+uuid: 24be6aee-c1f6-4a76-a9b6-3861dc9853e9
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.instagram.embed_code
     - field.field.media.instagram.field_media_in_library
-    - media_entity.bundle.instagram
+    - media.type.instagram
   module:
     - media_entity_instagram
 _core:
-  default_config_hash: mW_bQ87HP6xyVkJgG9HGVDEYUSCYzVgNDcRuhjRtcbk
+  default_config_hash: FGDcC__SDFv-9J0bOZYpGLVXKr2uIoXpNJOg8yLD7mU
 id: media.instagram.default
 targetEntityType: media
 bundle: instagram

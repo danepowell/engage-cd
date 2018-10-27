@@ -1,12 +1,12 @@
-uuid: 092b61c6-3895-442e-988d-a9df62e44b95
+uuid: 548f5d78-289b-4def-914e-4c9c8d4c2a7e
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: e3453dXHFW5TM24d8Odhumgwd8hIZVPvQv98wnGM7Ro
+  default_config_hash: MvQPTbQx0Vxwy0ordSHyixdZmLCMpvMdLD69dlwkrKc
 id: user
 label: User
 tags:
   canonical_url: '[user:url]'
   description: '[site:name]'
-  title: '[user:name] | [site:name]'
+  title: '[user:display-name] | [site:name]'

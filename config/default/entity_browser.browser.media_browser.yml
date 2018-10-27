@@ -1,4 +1,4 @@
-uuid: 2bdbaae0-69c2-496b-b99c-0fa3455d4287
+uuid: 4a6a672d-8360-45c1-b932-1c1ec1bcf14a
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     - lightning_media
     - views
 _core:
-  default_config_hash: D9N3yb_9pTuhS5RYJ2c7eFzHgtexTWA07Ij5oCyshpQ
+  default_config_hash: kT3o2OhRMWgZX6kGxRYSsItntaw241e3UwpGCD3RpJE
 name: media_browser
 label: 'Media browser'
 display: iframe
@@ -22,16 +22,6 @@ selection_display_configuration: {  }
 widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
-  134808d9-d854-4a0b-8699-d5eba006b8b7:
-    settings:
-      view: media
-      view_display: entity_browser_1
-      submit_text: Place
-      auto_select: false
-    uuid: 134808d9-d854-4a0b-8699-d5eba006b8b7
-    weight: -10
-    label: Library
-    id: view
   8b142f33-59d1-47b1-9e3a-4ae85d8376fa:
     settings:
       submit_text: Place
@@ -49,3 +39,13 @@ widgets:
     weight: -9
     label: Upload
     id: file_upload
+  d051294d-9df4-4220-a1be-5d506c7e594e:
+    settings:
+      view: media
+      view_display: entity_browser_1
+      submit_text: Place
+      auto_select: false
+    uuid: d051294d-9df4-4220-a1be-5d506c7e594e
+    weight: -10
+    label: Library
+    id: view

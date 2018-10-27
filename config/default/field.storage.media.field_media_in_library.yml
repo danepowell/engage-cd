@@ -1,11 +1,11 @@
-uuid: 0bc23951-547d-49cf-8a29-18a4a40492af
+uuid: ca953f5c-bd24-4568-9024-71d7ce3110fe
 langcode: en
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
 _core:
-  default_config_hash: rPkuKKIL3OnrYzmp_UDHSBgmbn7BQKH5eOcKA9RKQ48
+  default_config_hash: lffD3mObWGT5Omm82absPoIaouoGCzyc2-8aNOZe3TE
 id: media.field_media_in_library
 field_name: field_media_in_library
 entity_type: media

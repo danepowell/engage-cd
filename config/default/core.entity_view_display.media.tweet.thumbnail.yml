@@ -1,4 +1,4 @@
-uuid: 4468f3e8-2512-4e17-929e-f1d5025e439f
+uuid: e4f149d7-769f-427d-83c5-e48cb0ff1037
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
     - field.field.media.tweet.embed_code
     - field.field.media.tweet.field_media_in_library
     - image.style.medium
-    - media_entity.bundle.tweet
+    - media.type.tweet
   module:
     - image
 _core:
-  default_config_hash: 5pv083fNbh3DVIvTdTrOWxd232mXQ1zz6EA3nq3Xk0o
+  default_config_hash: 7POQWMMGHaAd5G2_zxlo9bWG9g3LLLyKp0jUb6hvnHU
 id: media.tweet.thumbnail
 targetEntityType: media
 bundle: tweet

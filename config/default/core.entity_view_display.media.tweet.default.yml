@@ -1,15 +1,15 @@
-uuid: 3859933f-da3a-458d-b501-9abb7faad396
+uuid: f855864b-4e4a-4bed-acbb-18b3928763b6
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.tweet.embed_code
     - field.field.media.tweet.field_media_in_library
-    - media_entity.bundle.tweet
+    - media.type.tweet
   module:
     - media_entity_twitter
 _core:
-  default_config_hash: 3BX5nyLFzG2tAUc3X5tCVuaBGkWBiMm2HLL_VFwV7aA
+  default_config_hash: 8ohzA6h74CR-H9GvTW07BJp5FekrvcklYgP579UaQ-g
 id: media.tweet.default
 targetEntityType: media
 bundle: tweet

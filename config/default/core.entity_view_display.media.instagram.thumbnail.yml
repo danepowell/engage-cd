@@ -1,4 +1,4 @@
-uuid: bda47d1a-47a5-430d-9e48-d6f0ef45acd2
+uuid: 37af336d-e70c-4005-9cb5-45065bf9c1c5
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
     - field.field.media.instagram.embed_code
     - field.field.media.instagram.field_media_in_library
     - image.style.medium
-    - media_entity.bundle.instagram
+    - media.type.instagram
   module:
     - image
 _core:
-  default_config_hash: RkAZzP2xy_PFoNyBBcKJ__BDBQfXtNhvQVcatJyzyOc
+  default_config_hash: 1DOWWQCf9RT-KOigclqslxmujlvMK2M9xJnzaLcDX3o
 id: media.instagram.thumbnail
 targetEntityType: media
 bundle: instagram

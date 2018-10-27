@@ -1,17 +1,17 @@
-uuid: 2c8daaa1-342c-42a2-b9b8-b6c668cb2dd1
+uuid: a9e08565-ce2c-45ba-8a15-7360217f3f00
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_media_in_library
-    - media_entity.bundle.instagram
+    - media.type.instagram
 _core:
-  default_config_hash: tO2-8ZW4Qrh4LdJ26ZDTLXx2opRwRiTb7bN9ErwWzlc
+  default_config_hash: ZQFNge-ZNr2a6AFY4KNTy3cvYrC9fiQxJdG5YQd3OH8
 id: media.instagram.field_media_in_library
 field_name: field_media_in_library
 entity_type: media
 bundle: instagram
-label: 'Save to my media library'
+label: 'Show in media library'
 description: ''
 required: false
 translatable: false
@@ -20,6 +20,6 @@ default_value:
     value: 1
 default_value_callback: ''
 settings:
-  on_label: 'Saved to my media library'
-  off_label: 'Not in my media library'
+  on_label: 'Shown in media library'
+  off_label: 'Hidden in media library'
 field_type: boolean

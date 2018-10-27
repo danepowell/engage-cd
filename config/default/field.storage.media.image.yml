@@ -1,13 +1,13 @@
-uuid: 977639ee-c2a6-4012-afa4-151c225fe90b
+uuid: 81877764-8b93-437f-81d1-f13b7d7147f3
 langcode: und
 status: true
 dependencies:
   module:
     - file
     - image
-    - media_entity
+    - media
 _core:
-  default_config_hash: 3fGTvdFe4IZRpv6ieTEPM6Ijjl3ig-GdJ6kxwHMcVOQ
+  default_config_hash: 0zTx0zdgLRdKujV0VyF65aZ2xysPnHOa41tLHe9Rj6g
 id: media.image
 field_name: image
 entity_type: media

@@ -1,4 +1,4 @@
-uuid: f3dc0b70-512b-4ab7-97a9-d3981eaccba3
+uuid: b7448c52-e86d-45cf-b0f1-9934e483baf1
 langcode: en
 status: true
 dependencies:
@@ -27,10 +27,7 @@ content:
   links:
     weight: 101
     region: content
-  workbench_moderation_control:
-    weight: -20
-    region: content
 hidden:
+  content_moderation_control: true
   field_meta_tags: true
   panelizer: true
-  scheduled_update: true
