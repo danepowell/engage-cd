@@ -1,6 +1,8 @@
 # Engage CD
 
-This is a demonstration of a complete BLT-based project development workflow for Engage CD.
+This repository contains demo code for the Acquia Engage 2018 CD workshop. There are several branches, with each branch corresponding to a tutorial in the Pipelines Examples repository: https://github.com/acquia/pipelines-examples
+
+The master branch is a demonstration of a complete BLT-based project development workflow for Engage CD.
 
 ## Getting Started
 
